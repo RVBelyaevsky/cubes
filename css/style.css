@@ -6,9 +6,19 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
-.header{
+.container{
     display: flex;
     justify-content: center;
+    width: 800px;
+    min-height: 600px;
+    margin: 0 auto;
+}
+.header{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cube{
     width: 50px;
